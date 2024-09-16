@@ -1,0 +1,32 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-bg-color);
+    color: var(--primary-text-color);
+  }
+  
+  .header {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--header-bg-color);
+  }
+  
+  .header.dark {
+    background-color: #333;
+    color: white;
+  }
+  
+  .product-list {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cart ul {
+    list-style: none;
+    padding: 0;
+  }
+  

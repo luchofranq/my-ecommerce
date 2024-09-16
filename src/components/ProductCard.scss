@@ -1,0 +1,19 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s;
+}
+
+.product-card:hover {
+  transform: scale(1.02);
+}
+
+.product-card .image {
+  height: 150px;
+  object-fit: cover;
+}
+
+.product-card .content {
+  padding: 15px;
+}
